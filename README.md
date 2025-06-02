@@ -1,6 +1,6 @@
 # FDTD with Auxiliary Bath Fields (FDTD-Bath) for Condensed-Phase Polaritonics
 
-This repo contains the input and post-processing files for the publications involving the FDTD-Bath approach developed in the [TEL research group](https://www.taoeli.org/).
+This Github repo stores the input and post-processing files for the publications involving the FDTD-Bath approach developed in the [TEL research group](https://www.taoeli.org/).
 
 ## Install
 
@@ -13,4 +13,6 @@ Because it is very tedious to install the MEEP package from source, a bash scrip
 
 - [implementation_2025](./implementation_2025/)
 
-This folder contains the input and postprocessing files for the initial implementation of the FDTD-Bath approach.
+This folder contains the input and postprocessing files for the initial implementation of the FDTD-Bath approach:
+
+Tao E. Li. "FDTD with Auxiliary Bath Fields for Condensed-Phase Polaritonics: Fundamentals and Implementation". [arXiv:2505.23963](https://arxiv.org/abs/2505.23963) (2025)
