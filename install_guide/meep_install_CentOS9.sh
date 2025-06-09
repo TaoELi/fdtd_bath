@@ -1,4 +1,8 @@
 #!/bin/bash
+###############################################################################
+#  meep-install_CentOS9.sh  –  Build MEEP + prerequisites in $HOME with sudo
+#  Author: Tao E. Li <taoeli@udel.edu>
+###############################################################################
 
 # works for a clean CentOS9 system; see also https://meep.readthedocs.io/en/latest/Build_From_Source/
 RPATH_FLAGS="-Wl,-rpath,/usr/local/lib:/usr/local/lib/openmpi"
