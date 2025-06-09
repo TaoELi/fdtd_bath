@@ -4,10 +4,13 @@ This Github repo stores the input and post-processing files for the publications
 
 ## Install
 
-The FDTD-Bath approach is implemented on top of the open-source FDTD package [MEEP](https://meep.readthedocs.io/en/master/). However, at this moment, this approach has not been merged into to the main version of MEEP. Users need to install [our modified MEEP code](https://github.com/TaoELi/meep) from source: https://github.com/TaoELi/meep. 
+The FDTD-Bath approach is implemented on top of the open-source FDTD package [MEEP](https://meep.readthedocs.io/en/master/). However, at this moment, this approach has not been merged into to the main version of MEEP. Users need to install [our modified MEEP code](https://github.com/TaoELi/meep) from source: https://github.com/TaoELi/meep. The MEEP offical website also contains the detailed discussion of [installing MEEP from source](https://meep.readthedocs.io/en/latest/Build_From_Source/).
 
-Because it is very tedious to install the MEEP package from source, a bash script is provided in [./install_guide/meep_install_CentOS9.sh](./install_guide/meep_install_CentOS9.sh) for smoothly installing the MEEP package in a clean CentOS 9 Linux system. The MEEP offical website also contains the discussion of [installing MEEP from source](https://meep.readthedocs.io/en/latest/Build_From_Source/).
+Because it is very tedious to install the MEEP package from source, the following bash scripts are provided in [./install_guide/](./install_guide/) for smoothly installing the MEEP package in a few different Linux environments. 
 
+- [./install_guide/meep_install_CentOS9.sh](./install_guide/meep_install_CentOS9.sh): Tested on a clean CentOS9 system with **sudo** privileges. 
+
+- [./install_guide/meep_install_hpc_anvil.sh](./install_guide/meep_install_hpc_anvil.sh): Tested on the Anvil HPC system, which is available to U.S. researchers through the NSF ACCESS program; see https://allocations.access-ci.org/get-your-first-project. 
 
 ## Data for FDTD-Bath publications
 
