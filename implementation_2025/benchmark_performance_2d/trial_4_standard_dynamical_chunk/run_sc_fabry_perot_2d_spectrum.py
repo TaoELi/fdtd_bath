@@ -187,7 +187,7 @@ else:
             bath_form=bath_form,
             bath_width=bath_width * gamma_lorentz,
             bath_dephasing=dephasing_ratio * gamma_lorentz,
-            bath_gammas=[gamma_lorentz*decay_ratio]*num_bath,
+            bath_gamma=gamma_lorentz*decay_ratio,
             bath_anharmonicities=[bath_anharmonicity]*num_bath,
         )
     
@@ -245,6 +245,9 @@ sim = mp.Simulation(
     k_point=k_point,
 )
 
+# Start of the chunk balancing procedure. Sometimes this chunk balancing procedure is not needed, 
+# and the whole chunk balancing block can be commented out; see the end comment below.
+
 sim.run(until=0.04)
 
 
@@ -280,6 +283,7 @@ sim = mp.Simulation(
     k_point=k_point,
     chunk_layout=next_chunk_layout
 )
+# End of the chunk balancing procedure, the above chunk balancing block can be commented out if not needed.
 
 sim.run(
     until=end_time

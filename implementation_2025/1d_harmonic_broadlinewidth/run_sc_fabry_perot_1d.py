@@ -175,7 +175,7 @@ else:
             bath_form=bath_form,
             bath_width=bath_width * gamma_lorentz,
             bath_dephasing=dephasing_ratio * gamma_lorentz,
-            bath_gammas=[gamma_lorentz*decay_ratio]*num_bath,
+            bath_gamma=gamma_lorentz*decay_ratio,
             bath_anharmonicities=[bath_anharmonicity]*num_bath,
         )
     
