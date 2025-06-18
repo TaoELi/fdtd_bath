@@ -8,4 +8,4 @@ Tao E. Li. "FDTD with Auxiliary Bath Fields for Condensed-Phase Polaritonics: Fu
 
 - [**2d_harmonic_broadlinewidth**](./2d_harmonic_broadlinewidth/): 2D simulation data. The **./submit_*.sh** bash scripts require MPI parallel calculations with 48 CPUs for slurm job submission. Users can also slightly modify the bash scripts to reduce the required number of CPUs to run the simulation locally.
 
--[**benchmark_performance_2d**](./benchmark_performance_2d/): 2D simulation data for examining the MPI performance across multiple nodes.
+- [**benchmark_performance_2d**](./benchmark_performance_2d/): 2D simulation data for examining the MPI performance across multiple nodes.
